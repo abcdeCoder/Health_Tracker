@@ -1,0 +1,42 @@
+<div class="p-4 m-10 max-w-7xl mx-auto bg-white rounded-lg shadow-lg">
+    <!-- Table Title -->
+    <h2 class="text-2xl text-center font-semibold mb-4">Workout Tracker</h2>
+    <h6 class="text-center text-lg font-extralight text-stone-500 mx-auto mt-4 ml-4">{{tableText}}</h6>
+  
+    <!-- PrimeNG Table with custom styling -->
+    <p-table
+      [value]="tableData"
+      styleClass="p-datatable-striped border border-gray-300 rounded-md"
+      [paginator]="true"
+      [rows]="rowsPerPage"
+      [totalRecords]="totalRecords"
+      [rowsPerPageOptions]="[5, 10, 15 ,20]"
+      [(first)]="currentPage"
+      [tableStyle]="{ 'min-width': '100%', 'border-collapse': 'separate' }"
+    >
+      <!-- Table Columns -->
+      <ng-template pTemplate="header">
+        <tr class="bg-blue-200 text-blue-900">
+          <th class="p-3 border border-gray-300 font-bold text-center" style="width:25%">Name</th>
+          <th class="p-3 border border-gray-300 font-bold text-center" style="width:25%">Workouts</th>
+          <th class="p-3 border border-gray-300 font-bold text-center" style="width:25%">Number of Workouts</th>
+          <th class="p-3 border border-gray-300 font-bold text-center" style="width:25%">Total Minutes</th>
+        </tr>
+      </ng-template>
+  
+      <ng-template pTemplate="body" let-rowData>
+        <tr class="hover:bg-blue-50 cursor-pointer" (click)="onRowSelect(rowData)">
+          <td class="p-3 border border-gray-300 text-center">{{ rowData.name }}</td>
+          <td class="p-3 border border-gray-300 text-center">{{ rowData.workouts }}</td>
+          <td class="p-3 border border-gray-300 text-center">{{ rowData.numberOfWorkouts }}</td>
+          <td class="p-3 border border-gray-300 text-center">{{ rowData.totalMinutes }}</td>
+        </tr>
+      </ng-template>
+
+       <!-- Footer Section -->
+  <ng-template pTemplate="footer">
+  
+  </ng-template>
+    </p-table>
+  </div>
+  
