@@ -1,0 +1,84 @@
+[
+  {
+    "id": 1,
+    "name": "Ava Thompson",
+    "workouts": [
+      { "type": "Yoga", "minutes": 45 },
+      { "type": "Running", "minutes": 35 }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Noah Williams",
+    "workouts": [
+      { "type": "Cycling", "minutes": 50 },
+      { "type": "Swimming", "minutes": 25 }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Mia Anderson",
+    "workouts": [
+      { "type": "Running", "minutes": 60 },
+      { "type": "Yoga", "minutes": 40 },
+      { "type": "Cycling", "minutes": 30 }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Liam Martinez",
+    "workouts": [
+      { "type": "Swimming", "minutes": 35 },
+      { "type": "Cycling", "minutes": 20 }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Emma Scott",
+    "workouts": [
+      { "type": "Running", "minutes": 55 },
+      { "type": "Yoga", "minutes": 25 }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "James Robinson",
+    "workouts": [
+      { "type": "Swimming", "minutes": 50 },
+      { "type": "Cycling", "minutes": 45 }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Sophia Clark",
+    "workouts": [
+      { "type": "Yoga", "minutes": 60 },
+      { "type": "Running", "minutes": 30 }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Benjamin Lewis",
+    "workouts": [
+      { "type": "Cycling", "minutes": 40 },
+      { "type": "Swimming", "minutes": 55 }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Isabella Young",
+    "workouts": [
+      { "type": "Running", "minutes": 50 },
+      { "type": "Yoga", "minutes": 35 }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Ethan Turner",
+    "workouts": [
+      { "type": "Cycling", "minutes": 45 },
+      { "type": "Swimming", "minutes": 30 },
+      { "type": "Running", "minutes": 20 }
+    ]
+  }
+]
