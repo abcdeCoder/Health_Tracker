@@ -2,9 +2,6 @@
 
 This project is a **Health Challenge Tracker** application built with Angular. The application allows users to track their workouts, view individual user information, and visualize user data through various features. The project aims to provide a comprehensive solution for managing and analyzing workout data.
 
-## Submission
-- **Deployment Link:** [Health Challenge Tracker](#)
-- **GitHub Repository:** [Health Challenge Tracker Repository](#)
 
 ## Features
 - **Adding User:** Users can add new workout entries, including the type of workout and the duration in minutes.
